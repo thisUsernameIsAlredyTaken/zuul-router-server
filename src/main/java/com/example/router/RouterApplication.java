@@ -11,16 +11,6 @@ import org.springframework.web.filter.CorsFilter;
 @SpringBootApplication
 @EnableZuulProxy
 public class RouterApplication {
-
-//    @Configuration
-//    public static class WebSecConfig extends WebSecurityConfigurerAdapter {
-//
-//        @Override
-//        protected void configure(HttpSecurity http) throws Exception {
-//            http.cors().and().csrf().disable();
-//        }
-//    }
-
     public static void main(String[] args) {
         SpringApplication.run(RouterApplication.class, args);
     }
